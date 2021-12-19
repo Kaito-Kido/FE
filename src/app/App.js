@@ -8,8 +8,9 @@ import List from '../pages/List/List';
 import Report from '../pages/Report/Report';
 import Search from '../pages/Search/Search';
 import Setting from '../pages/Setting/Setting';
-import Table from '../pages/Table/Table';
+import TableScore from '../pages/TableScore/TableScore';
 import Login from '../components/Login/Login';
+import ClassList from '../pages/ClassList/ClassList'
 import useToken from './useToken';
 
 // function setToken(userToken) {
@@ -41,7 +42,8 @@ function App() {
             <Route path='/list' element={<List />} />
             <Route path='/search' element={<Search />} />
             <Route path='/setting' element={<Setting />} />
-            <Route path='/table' element={<Table />} />
+            <Route path='/table' element={<TableScore />} />
+            <Route path='/classlist' element={<ClassList />} />
           </Routes>
         </div>
       </Router>

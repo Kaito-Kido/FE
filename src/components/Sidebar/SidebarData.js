@@ -10,33 +10,39 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'List',
+        title: 'Danh sách học sinh',
         path: '/list',
         icon: <FaIcons.FaList />,
         cName: 'nav-text'
     },
     {
-        title: 'Report',
+        title: 'Lập báo cáo',
         path: '/report',
         icon: <FaIcons.FaBook />,
         cName: 'nav-text'
     },
     {
-        title: 'Search',
+        title: 'Tra cứu',
         path: '/search',
         icon: <FaIcons.FaSearch />,
         cName: 'nav-text'
     },
     {
-        title: 'Setting',
+        title: 'Lập bảng điểm',
+        path: '/table',
+        icon: <FaIcons.FaTable />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Cài đặt',
         path: '/setting',
         icon: <AiIcons.AiFillSetting />,
         cName: 'nav-text'
     },
     {
-        title: 'Table',
-        path: '/table',
-        icon: <FaIcons.FaTable />,
-        cName: 'nav-text'
-    },
+        title: 'Danh sách lớp',
+        path: '/classlist',
+        icon: <FaIcons.FaList />,
+        cName: 'nav-text',
+    }
 ]
